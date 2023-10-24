@@ -37,6 +37,13 @@ article div {
   width: 100%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
@@ -53,6 +60,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+  align-self: center;
 }
 
 /* Images */
